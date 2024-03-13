@@ -1,33 +1,31 @@
-INSERT INTO department (name)
+INSERT INTO department
+    (name)
 VALUES
-("sales"),
-("marketing"),
-("Finance"),
-("Human Resources"),
-("Informat ion Technology");
+    ('Sales'),
+    ('Engineering'),
+    ('Finance'),
+    ('Legal');
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO role
+    (title, salary, department_id)
 VALUES
-("IT Lead","$80,000.00",5),
-("Sales Rep","$40,000.00",1),
-("HR Manager","$95,000.00",4),
-("CFO","$120,000.00",3),
-("IT Specialist","$50,000.00",5)
-("Marketing Specialist","$45,000.00",2),
-("Marketing Manager","$95,000.00",2),
-("HR Specialist","$45,000.00",4),
-("Sales Manager","$90,000.00",1),
-("Financial Analyst","$70,000.00",3);
+    ('Sales Lead', 100000, 1),
+    ('Salesperson', 80000, 1),
+    ('Lead Engineer', 150000, 2),
+    ('Software Engineer', 120000, 2),
+    ('Account Manager', 160000, 3),
+    ('Accountant', 125000, 3),
+    ('Legal Team Lead', 250000, 4),
+    ('Lawyer', 190000, 4);
 
-INSERT INTO employee (first_name,last_name,role_id,manager_id)
-VALUES 
-("Olivia","Mitchell",2,Null),
-("Ethan","Reynolds",4,4),
-("Sophia","Patel",1,5),
-("Mason","Carter",10,NULL),
-("Ava","Thompson",8,NULL),
-("Liam","Rodriguez",5,NULL),
-("Isabella","Wright",3,3),
-("Noah","Turner",6,NULL),
-("Mia","Foster",7,7),
-("Lucas","Hayes",9,9);
+INSERT INTO employee
+    (first_name, last_name, role_id, manager_id)
+VALUES
+    ('John', 'Doe', 1, NULL),
+    ('Mike', 'Chan', 2, 1),
+    ('Ashley', 'Rodriguez', 3, NULL),
+    ('Kevin', 'Tupik', 4, 3),
+    ('Kunal', 'Singh', 5, NULL),
+    ('Malia', 'Brown', 6, 5),
+    ('Sarah', 'Lourd', 7, NULL),
+    ('Tom', 'Allen', 8, 7);
