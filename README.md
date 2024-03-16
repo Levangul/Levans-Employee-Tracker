@@ -15,13 +15,18 @@
 
   ## Installation
 
-  To install this app you will need to clone down repository and install express and uuid
+  To install this app you will need to clone down repository and install inquirer and mysql2
 
   ## Usage
 
-  https://protected-earth-60032-5c5aed5b57ce.herokuapp.com
 
-  ![screencapture-localhost-3001-notes-2024-03-07-22_22_43](https://github.com/Jetniksyla/Event-Space/assets/150108077/3104f41e-000e-48d1-80b0-29cc6e1f9e2c)
+  [Untitled_ Mar 16, 2024 1_56 AM.webm](https://github.com/Levangul/LevansREADMEgen/assets/150108077/62c69aa2-e344-4a50-bec4-58ded9b9a67d)
+
+  1. Open the terminal on your computer.
+  2. Navigate to the directory where you have saved the downloaded repo.
+  3. Run 'npm i' in the terminal to download all necessary dependencies.
+  4. Once installed run 'node index.js' in the terminal to start the application.
+  5. Follow the prompts to view, add or update employees.
   
 
   

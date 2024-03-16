@@ -12,8 +12,8 @@ const db = mysql.createConnection(
     password: '',
     database: 'employees_db'
   },
-  console.log(`Connected to the database.`)
-);
+  console.log(`Connected to the database.`)  );
+
 
 startQuestions = () => {
   inquirer.prompt([{
